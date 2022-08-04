@@ -7,6 +7,6 @@ SET userName=money_manager
 SET password=123
 SET DOTNET_ENVIRONMENT=Development
 
-cd migrate
+cd migrations
 powershell .\migrate.ps1 -ConnectionString localhost:5432/%database% -UserName %userName% -Password %password% -Contexts "dev"
 cd ..
