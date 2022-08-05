@@ -22,6 +22,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.Commons", "Inf
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.DataTypes", "Infrastructure\MoneyManager.DataTypes\MoneyManager.DataTypes.csproj", "{143FA585-D82C-46ED-A6DB-08AED0CF5063}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoneyManager.Core", "MoneyManager.Core\MoneyManager.Core.csproj", "{B5E350A2-DACD-40FB-9AB3-4D2399BFCE17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure.Seedwork", "Infrastructure\Infrastructure.Seedwork\Infrastructure.Seedwork.csproj", "{CFDBD7F1-60D4-44A8-BE1B-E73C06594465}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +72,14 @@ Global
 		{143FA585-D82C-46ED-A6DB-08AED0CF5063}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{143FA585-D82C-46ED-A6DB-08AED0CF5063}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{143FA585-D82C-46ED-A6DB-08AED0CF5063}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5E350A2-DACD-40FB-9AB3-4D2399BFCE17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5E350A2-DACD-40FB-9AB3-4D2399BFCE17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5E350A2-DACD-40FB-9AB3-4D2399BFCE17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5E350A2-DACD-40FB-9AB3-4D2399BFCE17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFDBD7F1-60D4-44A8-BE1B-E73C06594465}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFDBD7F1-60D4-44A8-BE1B-E73C06594465}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFDBD7F1-60D4-44A8-BE1B-E73C06594465}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFDBD7F1-60D4-44A8-BE1B-E73C06594465}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{A809C6C7-B416-4C3A-A180-2D204B59B093} = {FD980F47-5B1A-4B30-9BCF-D08703652566}
@@ -78,5 +90,6 @@ Global
 		{0F35C1F3-F023-47A6-A840-4DB80707FF32} = {FD980F47-5B1A-4B30-9BCF-D08703652566}
 		{F307B3F0-8402-4A6C-BF01-196EB083F5B3} = {FD980F47-5B1A-4B30-9BCF-D08703652566}
 		{143FA585-D82C-46ED-A6DB-08AED0CF5063} = {FD980F47-5B1A-4B30-9BCF-D08703652566}
+		{CFDBD7F1-60D4-44A8-BE1B-E73C06594465} = {FD980F47-5B1A-4B30-9BCF-D08703652566}
 	EndGlobalSection
 EndGlobal
